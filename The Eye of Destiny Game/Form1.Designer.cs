@@ -87,11 +87,11 @@
             this.title.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.title.BackColor = System.Drawing.Color.Transparent;
-            this.title.Font = new System.Drawing.Font("Perpetua Titling MT", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.Font = new System.Drawing.Font("Vivaldi", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.LavenderBlush;
-            this.title.Location = new System.Drawing.Point(266, 36);
+            this.title.Location = new System.Drawing.Point(251, 21);
             this.title.Name = "title";
-            this.title.Size = new System.Drawing.Size(271, 87);
+            this.title.Size = new System.Drawing.Size(305, 87);
             this.title.TabIndex = 3;
             this.title.Text = "The Eye of Destiny";
             this.title.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -100,11 +100,11 @@
             // 
             this.resetButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.resetButton.BackColor = System.Drawing.Color.Thistle;
-            this.resetButton.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resetButton.Font = new System.Drawing.Font("Segoe Script", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resetButton.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.resetButton.Location = new System.Drawing.Point(666, 444);
+            this.resetButton.Location = new System.Drawing.Point(669, 444);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(84, 37);
+            this.resetButton.Size = new System.Drawing.Size(81, 39);
             this.resetButton.TabIndex = 4;
             this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = false;
@@ -122,9 +122,10 @@
             this.Controls.Add(this.answerLabel);
             this.Controls.Add(this.questionBox);
             this.Controls.Add(this.submitButton);
+            this.Font = new System.Drawing.Font("Monotype Corsiva", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TheEyeofDestiny";
-            this.Text = "zzzz";
+            this.Text = "The Eye of Destiny";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
