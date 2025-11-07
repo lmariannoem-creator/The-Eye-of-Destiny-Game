@@ -26,7 +26,7 @@ namespace The_Eye_of_Destiny_Game
             answers.Add("So it is written in the old scrolls.");
             answers.Add("By sword and spell, it shall be done.");
             answers.Add("The omens bode well for thy wish.");
-            // Maybe answers
+            // Not sure answers
             answers.Add("Ask again when the moon is full.");
             answers.Add("The fates whisper, yet their words are unclear.");
             answers.Add("In time, the truth shall reveal itself.");

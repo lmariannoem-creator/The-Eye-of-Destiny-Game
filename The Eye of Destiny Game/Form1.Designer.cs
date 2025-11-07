@@ -100,7 +100,7 @@
             // 
             this.resetButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.resetButton.BackColor = System.Drawing.Color.Thistle;
-            this.resetButton.Font = new System.Drawing.Font("Segoe Script", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resetButton.Font = new System.Drawing.Font("Viner Hand ITC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resetButton.ForeColor = System.Drawing.Color.DarkMagenta;
             this.resetButton.Location = new System.Drawing.Point(669, 444);
             this.resetButton.Name = "resetButton";
