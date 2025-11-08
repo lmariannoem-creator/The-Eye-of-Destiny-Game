@@ -41,6 +41,7 @@
             this.submitButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.submitButton.BackColor = System.Drawing.Color.Plum;
+            this.submitButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.submitButton.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.submitButton.ForeColor = System.Drawing.Color.DarkViolet;
             this.submitButton.Location = new System.Drawing.Point(354, 464);
@@ -55,12 +56,14 @@
             // 
             this.questionBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.questionBox.BackColor = System.Drawing.Color.Thistle;
+            this.questionBox.BackColor = System.Drawing.Color.Plum;
+            this.questionBox.Cursor = System.Windows.Forms.Cursors.PanNW;
             this.questionBox.Font = new System.Drawing.Font("Monotype Corsiva", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.questionBox.ForeColor = System.Drawing.Color.Purple;
             this.questionBox.Location = new System.Drawing.Point(179, 417);
             this.questionBox.Multiline = true;
             this.questionBox.Name = "questionBox";
+            this.questionBox.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
             this.questionBox.Size = new System.Drawing.Size(444, 30);
             this.questionBox.TabIndex = 1;
             this.questionBox.Text = "type your question here...";
@@ -87,6 +90,8 @@
             this.title.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.title.BackColor = System.Drawing.Color.Transparent;
+            this.title.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.title.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.title.Font = new System.Drawing.Font("Vivaldi", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.LavenderBlush;
             this.title.Location = new System.Drawing.Point(251, 21);
@@ -99,12 +104,13 @@
             // resetButton
             // 
             this.resetButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.resetButton.BackColor = System.Drawing.Color.Thistle;
+            this.resetButton.BackColor = System.Drawing.Color.Pink;
+            this.resetButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.resetButton.Font = new System.Drawing.Font("Viner Hand ITC", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resetButton.ForeColor = System.Drawing.Color.DarkMagenta;
-            this.resetButton.Location = new System.Drawing.Point(669, 444);
+            this.resetButton.Location = new System.Drawing.Point(670, 464);
             this.resetButton.Name = "resetButton";
-            this.resetButton.Size = new System.Drawing.Size(81, 39);
+            this.resetButton.Size = new System.Drawing.Size(67, 34);
             this.resetButton.TabIndex = 4;
             this.resetButton.Text = "Reset";
             this.resetButton.UseVisualStyleBackColor = false;
