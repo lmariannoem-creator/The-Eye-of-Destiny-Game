@@ -1,4 +1,5 @@
-FILES:
+**FILES:**
+
 EyeOfDestinyNet8.csproj – Core project file defining target framework (net8.0-windows), references, NuGet metadata, and build options.
 
 EyeOfDestinyNet8.csproj.user – Developer specific Visual Studio preferences (debug settings, window layout) kept outside version control typically.
@@ -14,12 +15,14 @@ Form1.Designer.cs – Auto generated layout code that instantiates controls (but
 Form1.resx – Resource manifest storing localized strings, images, and serialized control data for the WinForms designer.
 
 
-OTHER INFO:
+**OTHER INFO:**
+
 -We used winforms to create this program. (kasi mas madali)
 -The program uses .NET 8.0 framework.
 
 
-WHATS INSIDE:
+**WHATS INSIDE:**
+
 EyeOfDestinyNet8.csproj
 - Project uses Microsoft.NET.Sdk: default settings for .NET desktop app.
 - OutputType WinExe: builds a Windows GUI executable.
