@@ -89,7 +89,7 @@
             this.title.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.title.BackColor = System.Drawing.Color.Transparent;
-            this.title.Font = new System.Drawing.Font("Vivaldi", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title.Font = new System.Drawing.Font("Vivaldi", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.title.ForeColor = System.Drawing.Color.LavenderBlush;
             this.title.Location = new System.Drawing.Point(251, 21);
             this.title.Name = "title";
