@@ -65,7 +65,6 @@
             this.questionBox.TabIndex = 1;
             this.questionBox.Text = "type your question here...";
             this.questionBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.questionBox.TextChanged += new System.EventHandler(this.questionBox_TextChanged);
             this.questionBox.Enter += new System.EventHandler(this.questionBox_Enter);
             this.questionBox.Leave += new System.EventHandler(this.questionBox_Leave);
             // 
@@ -82,7 +81,6 @@
             this.answerLabel.Size = new System.Drawing.Size(342, 165);
             this.answerLabel.TabIndex = 2;
             this.answerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.answerLabel.Click += new System.EventHandler(this.answerLabel_Click);
             // 
             // title
             // 
@@ -128,7 +126,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TheEyeofDestiny";
             this.Text = "The Eye of Destiny";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
