@@ -48,8 +48,24 @@ namespace EyeOfDestinyNet8
 
         private void submitButton_Click(object sender, EventArgs e)
         {
+            if (IsQuestionMissing())
+            {
+                answerLabel.Text = "O Seeker, offer a worthy question that honors destiny's tale.";
+                return;
+            }
+
             int index = random.Next(answers.Count);
             answerLabel.Text = answers[index];
+        }
+
+        private bool IsQuestionMissing()
+        {
+            if (string.IsNullOrWhiteSpace(questionBox.Text))
+            {
+                return true;
+            }
+
+            return questionBox.Text.Equals(QuestionPlaceholder, StringComparison.OrdinalIgnoreCase);
         }
 
         private void questionBox_TextChanged(object sender, EventArgs e)
