@@ -43,9 +43,11 @@ Program.cs
 Form1.cs
 - 'TheEyeofDestiny : Form' is the main WinForms window.
 - answers list holds medieval-style responses; seeded in the constructor.
-- Random random picks a response when submitButton_Click fires.
-- Placeholder text logic: SetQuestionPlaceholder, questionBox_Enter, and questionBox_Leave swap between hint text and user input color.
-- resetButton_Click restores the placeholder and clears the answer
+- Constructor sets up the form, applies the placeholder, and fills the 'answers' list (grouped into yes, unsure, and no responses).
+- submitButton_Click: if no valid question, shows a warning line; otherwise picks a random answer (random.Next(answers.Count)) and displays it.
+- IsQuestionMissing returns true when the box is empty or still showing the placeholder text.
+- questionBox_Enter/Leave swap between placeholder hint and user text color.
+- resetButton_Click restores the placeholder and clears the answer label.
 
 Form1.Designer.cs
 - 'InitializeComponent()' builds the form UI.
