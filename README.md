@@ -17,7 +17,7 @@
 
 **OTHER INFO:**
 
-- We used winforms to create this program. (kasi mas madali)
+- We used winforms to create this program. (kasi mas madali at mas simple para sa program natin)
 - The program uses .NET 8.0 framework.
 
 
