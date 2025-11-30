@@ -1,22 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace The_Eye_of_Destiny_Game
+namespace EyeOfDestinyNet8
 {
     public partial class TheEyeofDestiny : Form
     {
-        Random random = new Random();
-        List<string> answers = new List<string>();
+        private const string QuestionPlaceholder = "type your question here...";
+        private readonly Random random = new();
+        private readonly List<string> answers = new();
         public TheEyeofDestiny()
         {
             InitializeComponent();
+            SetQuestionPlaceholder();
             // Yes answers
             answers.Add("Verily, it shall come to pass.");
             answers.Add("By the king's honor, aye indeed.");
@@ -60,6 +57,23 @@ namespace The_Eye_of_Destiny_Game
 
         }
 
+        private void questionBox_Enter(object sender, EventArgs e)
+        {
+            if (questionBox.Text == QuestionPlaceholder)
+            {
+                questionBox.Text = string.Empty;
+                questionBox.ForeColor = Color.Purple;
+            }
+        }
+
+        private void questionBox_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(questionBox.Text))
+            {
+                SetQuestionPlaceholder();
+            }
+        }
+
         private void answerLabel_Click(object sender, EventArgs e)
         {
 
@@ -67,8 +81,14 @@ namespace The_Eye_of_Destiny_Game
 
         private void resetButton_Click(object sender, EventArgs e)
         {
-            questionBox.Text = "";
+            SetQuestionPlaceholder();
             answerLabel.Text = "";
+        }
+
+        private void SetQuestionPlaceholder()
+        {
+            questionBox.ForeColor = Color.MediumPurple;
+            questionBox.Text = QuestionPlaceholder;
         }
     }
 }
