@@ -1,24 +1,24 @@
 **FILES:**
 
-EyeOfDestinyNet8.csproj – Core project file defining target framework (net8.0-windows), references, NuGet metadata, and build options.
+- EyeOfDestinyNet8.csproj – Core project file defining target framework (net8.0-windows), references, NuGet metadata, and build options.
 
-EyeOfDestinyNet8.csproj.user – Developer specific Visual Studio preferences (debug settings, window layout) kept outside version control typically.
+- EyeOfDestinyNet8.csproj.user – Developer specific Visual Studio preferences (debug settings, window layout) kept outside version control typically.
 
-EyeOfDestinyNet8.sln – Solution container that maps the single WinForms project into Visual Studio/VS Code.
+- EyeOfDestinyNet8.sln – Solution container that maps the single WinForms project into Visual Studio/VS Code.
 
-Program.cs – App entry point; Program.cs configures WinForms visual styles and opens the main form.
+- Program.cs – App entry point; Program.cs configures WinForms visual styles and opens the main form.
 
-Form1.cs – Code behind the UI; Form1.cs seeds the medieval themed answer list, handles button clicks, and updates labels.
+- Form1.cs – Code behind the UI; Form1.cs seeds the medieval themed answer list, handles button clicks, and updates labels.
 
-Form1.Designer.cs – Auto generated layout code that instantiates controls (buttons, labels, text boxes) and wires their event handlers for TheEyeofDestiny.
+- Form1.Designer.cs – Auto generated layout code that instantiates controls (buttons, labels, text boxes) and wires their event handlers for TheEyeofDestiny.
 
-Form1.resx – Resource manifest storing localized strings, images, and serialized control data for the WinForms designer.
+- Form1.resx – Resource manifest storing localized strings, images, and serialized control data for the WinForms designer.
 
 
 **OTHER INFO:**
 
--We used winforms to create this program. (kasi mas madali)
--The program uses .NET 8.0 framework.
+- We used winforms to create this program. (kasi mas madali)
+- The program uses .NET 8.0 framework.
 
 
 **WHATS INSIDE:**
